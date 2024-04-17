@@ -14,6 +14,31 @@
 
 * Клонировать репозиторий и перейти в его директорию
 
+* Cоздать и активировать виртуальное окружение:
+
+    * Windows
+    ```shell
+    python -m venv venv
+    ```
+    ```shell
+    source venv/Scripts/activate
+    ```
+
+    * Linux/macOS
+    ```shell
+    python3 -m venv venv
+    ```
+    ```shell
+    source venv/bin/activate
+    ```
+
+
+* Обновить PIP
+
+    ```shell
+    python -m pip install --upgrade pip
+    ```
+
 * Установить зависимости из файла requirements.txt:
 
     ```shell
